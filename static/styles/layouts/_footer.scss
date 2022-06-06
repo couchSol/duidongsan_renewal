@@ -1,0 +1,19 @@
+.footer {
+    @include column-flexbox();
+    @include text-style-14();
+    flex-flow: column wrap;
+    width: vw;
+    padding: 16px;
+    background-color: $green;
+    color: $beige;
+    p {
+        margin: 0;
+        line-height: 2rem;
+    }
+}
+
+@include responsive(lg) {
+    .footer{
+        padding: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+@import './base/reset';
+@import './base/fonts';
+
+@import './consts/typography';
+@import './consts/colors';
+
+@import './mixins/text-style';
+@import './mixins/responsive';
+@import './mixins/positions';
+@import './mixins/flexbox';
+
+@import './layouts/grids';
+@import './base/globals';
+@import './layouts/gnb';
+@import './layouts/homepage';
+@import './layouts/menupage';
+@import './layouts/footer';
+
+
+*{
+    font-family: 'Gowun Batang', serif;
+}
+body{
+    background-color: $beige
+}
