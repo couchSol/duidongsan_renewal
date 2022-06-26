@@ -162,6 +162,9 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+production
+/build
+
 ### Sass ###
 .sass-cache/
 *.css.map
