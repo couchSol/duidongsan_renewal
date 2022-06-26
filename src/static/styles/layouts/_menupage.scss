@@ -1,10 +1,6 @@
 .menu-intro{
     border-bottom: 1px solid rgb(190, 194, 189);
 
-    @include responsive(lg){
-        @include flexbox(between, start);
-    }
-
     &-img{
         display: block;
         height: 280px;
@@ -40,7 +36,7 @@
         padding: 4px;
     }
     .menu-list{
-        @include flexbox(between, start);
+        @include flexbox(start, start);
         flex-wrap: wrap;
 
         .menu-item{
@@ -50,7 +46,8 @@
             .menu-img{
                 img{
                     display: block;
-                    width: 44vw;
+                    width: 100%;
+                    object-fit: cover;
                 }
             }
             .menu-title{
@@ -58,12 +55,4 @@
             }
         }
     }
-    @include responsive(lg){
-        .menu-img{
-            img{
-                width: 30vw;
-            }
-        }
-    }
-
 }

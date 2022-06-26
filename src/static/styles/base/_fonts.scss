@@ -15,17 +15,17 @@ $font-main: 'Gowun Batang', serif;
 $font-menu: 'Hyemin', sans-serif;
 
 
-@font-face {
-    font-family: 'duidongsan';
-    src:  url('./icon/duidongsan/fonts/duidongsan.eot');
-    src:  url('./icon/duidongsan/fonts/duidongsan.eot') format('embedded-opentype'),
-      url('./icon/duidongsan/fonts/duidongsan.ttf') format('truetype'),
-      url('./icon/duidongsan/fonts/duidongsan.woff') format('woff'),
-      url('./icon/duidongsan/fonts/duidongsan.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
+// @font-face {
+//     font-family: 'duidongsan';
+//     src:  url('./icon/duidongsan/fonts/duidongsan.eot');
+//     src:  url('./icon/duidongsan/fonts/duidongsan.eot') format('embedded-opentype'),
+//       url('./icon/duidongsan/fonts/duidongsan.ttf') format('truetype'),
+//       url('./icon/duidongsan/fonts/duidongsan.woff') format('woff'),
+//       url('./icon/duidongsan/fonts/duidongsan.svg') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: block;
+//   }
   
   i {
     /* use !important to prevent issues with browser extensions that change fonts */
