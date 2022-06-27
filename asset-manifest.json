@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/duidongsan_renewal/static/css/main.72285024.css",
-    "main.js": "/duidongsan_renewal/static/js/main.516f3959.js",
+    "main.js": "/duidongsan_renewal/static/js/main.ca504bf2.js",
     "static/js/787.0b3edef7.chunk.js": "/duidongsan_renewal/static/js/787.0b3edef7.chunk.js",
     "static/media/logo.png": "/duidongsan_renewal/static/media/logo.74cb67fbc66f87d25b3a.png",
     "index.html": "/duidongsan_renewal/index.html",
     "main.72285024.css.map": "/duidongsan_renewal/static/css/main.72285024.css.map",
-    "main.516f3959.js.map": "/duidongsan_renewal/static/js/main.516f3959.js.map",
+    "main.ca504bf2.js.map": "/duidongsan_renewal/static/js/main.ca504bf2.js.map",
     "787.0b3edef7.chunk.js.map": "/duidongsan_renewal/static/js/787.0b3edef7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72285024.css",
-    "static/js/main.516f3959.js"
+    "static/js/main.ca504bf2.js"
   ]
 }
