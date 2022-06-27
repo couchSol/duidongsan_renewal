@@ -264,12 +264,15 @@ i {
     background: url(./images/main.jpg) no-repeat center/cover; } }
 
 .menu-intro {
-  border-bottom: 1px solid #bec2bd; }
+  border-bottom: 1px solid #bec2bd;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
   .menu-intro-img {
     display: block;
     height: 280px;
     margin: 50px 0;
-    background: url(./images/menu-cut.jpeg) no-repeat center/cover; }
+    background: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2267dc41-e335-48bb-a304-0eccc12be7ea%2Fmenu-cut.jpeg?table=block&id=c8ae9734-f91c-46cb-b75d-d82f77fc4385&spaceId=5faaf709-5286-406a-bd35-2f81525f2422&width=1830&userId=64132609-ca0a-4879-a67d-995b82c56f1e&cache=v2") no-repeat center/cover; }
   .menu-intro-text {
     display: block;
     margin: 50px 0; }
@@ -277,14 +280,16 @@ i {
       font-size: 20px;
       line-height: 30px;
       letter-spacing: -0.01em;
-      font-weight: 700; }
+      font-weight: 700;
+      margin-bottom: 16px; }
     .menu-intro-text .text-content {
       font-size: 16px;
       line-height: 24px;
       letter-spacing: -0.01em; }
 
 .menu-wrapper {
-  padding: 10px; }
+  padding: 10px;
+  min-height: 60vw; }
   .menu-wrapper .lnb-list {
     display: flex;
     justify-content: flex-start;
@@ -312,6 +317,63 @@ i {
         width: 100%;
         object-fit: cover; }
       .menu-wrapper .menu-list .menu-item .menu-title {
+        padding: 8px 0; }
+
+.store-intro {
+  border-bottom: 1px solid #bec2bd;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .store-intro-img {
+    display: block;
+    height: 280px;
+    margin: 50px 0;
+    background: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F357b81f7-d34d-400e-806b-006efa2c059e%2Fshop.jpeg?table=block&id=45161b19-517d-4277-b8cd-7bd9d68daf74&spaceId=5faaf709-5286-406a-bd35-2f81525f2422&width=1830&userId=64132609-ca0a-4879-a67d-995b82c56f1e&cache=v2") no-repeat center/cover; }
+  .store-intro-text {
+    display: block;
+    margin: 50px 0; }
+    .store-intro-text .text-title {
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: -0.01em;
+      font-weight: 700;
+      margin-bottom: 16px; }
+    .store-intro-text .text-content {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.01em; }
+
+.store-wrapper {
+  display: block;
+  padding: 10px;
+  min-height: 60vw; }
+  .store-wrapper .lnb-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px; }
+  .store-wrapper .lnb-item {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    padding: 4px; }
+  .store-wrapper .store-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    .store-wrapper .store-list .store-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1vw; }
+      .store-wrapper .store-list .store-item .store-img img {
+        display: block;
+        width: 100%;
+        object-fit: cover; }
+      .store-wrapper .store-list .store-item .store-title {
         padding: 8px 0; }
 
 .footer {

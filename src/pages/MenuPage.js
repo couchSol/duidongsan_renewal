@@ -22,7 +22,7 @@ function MenuPage() {
             <div className="row">
                 <div className="col-sm-4 col-lg-12">
                     <section className="menu-intro">
-                        <div className="menu-intro-img col-sm-4 col-lg-6">                        </div>
+                        <div className="menu-intro-img col-sm-4 col-lg-6"></div>
                         <div className="menu-intro-text col-sm-4 col-lg-5">
                             <p className="text-title">
                                 뒷동산의 술과 음식
