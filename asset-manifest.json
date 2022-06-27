@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/duidongsan_renewal/static/css/main.d630a1d9.css",
-    "main.js": "/duidongsan_renewal/static/js/main.bfa91129.js",
+    "main.css": "/duidongsan_renewal/static/css/main.80a7092a.css",
+    "main.js": "/duidongsan_renewal/static/js/main.777e4467.js",
     "static/js/787.0b3edef7.chunk.js": "/duidongsan_renewal/static/js/787.0b3edef7.chunk.js",
     "static/media/logo.png": "/duidongsan_renewal/static/media/logo.74cb67fbc66f87d25b3a.png",
     "index.html": "/duidongsan_renewal/index.html",
-    "main.d630a1d9.css.map": "/duidongsan_renewal/static/css/main.d630a1d9.css.map",
-    "main.bfa91129.js.map": "/duidongsan_renewal/static/js/main.bfa91129.js.map",
+    "main.80a7092a.css.map": "/duidongsan_renewal/static/css/main.80a7092a.css.map",
+    "main.777e4467.js.map": "/duidongsan_renewal/static/js/main.777e4467.js.map",
     "787.0b3edef7.chunk.js.map": "/duidongsan_renewal/static/js/787.0b3edef7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d630a1d9.css",
-    "static/js/main.bfa91129.js"
+    "static/css/main.80a7092a.css",
+    "static/js/main.777e4467.js"
   ]
 }
