@@ -30,4 +30,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     * 첫 시도에서 uninstall 시도 시 '파일을 찾을 수 없다'며 오류 -> venv에 설치했다는 걸 깨닫고 안에서 전부 uninstall 후 가상환경 제거
 * create react app 으로 재시작
 * JSX으로 헤더/메인/푸터 리팩토링 시작
-ㅁㄴㅇㄻㄴㅇㄹ
