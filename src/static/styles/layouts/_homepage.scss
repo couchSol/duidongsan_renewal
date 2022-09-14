@@ -11,15 +11,15 @@
     }
     .sm-about{
         display: block;
-        background : url(./images/main-cut.jpg) no-repeat center/cover;
+        background : url(../../images/main-cut.jpg) no-repeat center/cover;
     }
     .sm-menu{
         display: block;
-        background : url(./images/menu-cut.jpeg) no-repeat center/cover;
+        background : url(../../images/menu-cut.jpeg) no-repeat center/cover;
     }
     .sm-shop{
         display: block;
-        background : url(./images/shop.jpeg) no-repeat center/cover;
+        background : url(../../images/shop.jpeg) no-repeat center/cover;
     }
 }
 
@@ -29,6 +29,6 @@
         @include flexbox();
         width: 100vw;
         height: 95vh;
-        background: url(./images/main.jpg) no-repeat center/cover;
+        background: url(../../images/main.jpg) no-repeat center/cover;
     }
 }
