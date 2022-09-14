@@ -104,7 +104,7 @@ i {
   .container .row {
     display: flex;
     flex-wrap: wrap; }
-  .container [name^='col-'] {
+  .container [name^="col-"] {
     padding: 0 10px; }
   .container .col-sm-1 {
     width: 25%; }
@@ -264,10 +264,12 @@ i {
     background: url(./images/main.jpg) no-repeat center/cover; } }
 
 .menu-intro {
-  border-bottom: 1px solid #bec2bd;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
+  border-bottom: 1px solid #bec2bd; }
+  @media screen and (min-width: 720px) {
+    .menu-intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; } }
   .menu-intro-img {
     display: block;
     height: 280px;
@@ -320,10 +322,12 @@ i {
         padding: 8px 0; }
 
 .store-intro {
-  border-bottom: 1px solid #bec2bd;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
+  border-bottom: 1px solid #bec2bd; }
+  @media screen and (min-width: 720px) {
+    .store-intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; } }
   .store-intro-img {
     display: block;
     height: 280px;
@@ -398,7 +402,7 @@ i {
     padding: 30px; } }
 
 * {
-  font-family: 'Gowun Batang', serif; }
+  font-family: "Gowun Batang", serif; }
 
 body {
   background-color: beige; }

@@ -6,37 +6,36 @@ $sm-margin: 5px;
 $lg-breakpoint: 720px;
 $lg-columns: 12;
 $lg-margin: 30px;
-$lg-max-container : 1140px + $lg-margin * 2 ;
+$lg-max-container: 1140px + $lg-margin * 2;
 
+.container {
+  width: 100%;
+  padding: 0 $sm-margin;
+  margin: 0 auto;
 
- .container {
-    width: 100% ;
-    padding: 0 $sm-margin;
-    margin: 0 auto;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .row {
-        display: flex;
-        flex-wrap: wrap;
+  [name^="col-"] {
+    padding: 0 $gutter/2;
+  }
+
+  @for $i from 1 through $sm-columns {
+    .col-sm-#{$i} {
+      width: percentage($i / $sm-columns);
     }
+  }
 
-    [name^='col-']{
-        padding: 0 $gutter/2 ;
+  @include responsive(lg) {
+    max-width: $lg-max-container;
+    padding: 0 $lg-margin;
+
+    @for $i from 1 through $lg-columns {
+      .col-lg-#{$i} {
+        width: percentage($i / $lg-columns);
+      }
     }
-
-    @for $i from 1 through $sm-columns{
-        .col-sm-#{$i} {
-            width: percentage($i / $sm-columns)
-        }
-    }
-
-    @include responsive(lg){
-        max-width: $lg-max-container;
-        padding: 0 $lg-margin;
-
-        @for $i from 1 through $lg-columns{
-            .col-lg-#{$i} {
-                width: percentage($i / $lg-columns)
-            }
-        }
-    }
+  }
 }

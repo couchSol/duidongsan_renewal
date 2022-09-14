@@ -1,63 +1,64 @@
-.store-intro{
-    border-bottom: 1px solid rgb(190, 194, 189);
+.store-intro {
+  border-bottom: 1px solid rgb(190, 194, 189);
+  @include responsive(lg) {
     @include flexbox(between, start);
+  }
 
-    &-img{
-        display: block;
-        height: 280px;
-        margin: 50px 0;
-        background : url('https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F357b81f7-d34d-400e-806b-006efa2c059e%2Fshop.jpeg?table=block&id=45161b19-517d-4277-b8cd-7bd9d68daf74&spaceId=5faaf709-5286-406a-bd35-2f81525f2422&width=1830&userId=64132609-ca0a-4879-a67d-995b82c56f1e&cache=v2')
-         no-repeat center/cover;
+  &-img {
+    display: block;
+    height: 280px;
+    margin: 50px 0;
+    background: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F357b81f7-d34d-400e-806b-006efa2c059e%2Fshop.jpeg?table=block&id=45161b19-517d-4277-b8cd-7bd9d68daf74&spaceId=5faaf709-5286-406a-bd35-2f81525f2422&width=1830&userId=64132609-ca0a-4879-a67d-995b82c56f1e&cache=v2")
+      no-repeat center/cover;
+  }
+
+  &-text {
+    display: block;
+    margin: 50px 0;
+
+    .text-title {
+      @include text-style-20();
+      font-weight: 700;
+      margin-bottom: 16px;
     }
-
-    &-text{
-        display: block;
-        margin: 50px 0;
-
-        .text-title{
-            @include text-style-20();
-            font-weight: 700;
-            margin-bottom: 16px;
-        }
-        .text-content{
-            @include text-style-16();
-        }
+    .text-content {
+      @include text-style-16();
     }
-
+  }
 }
 
-.store-wrapper{
-    display: block;
-    padding: 10px;
-    min-height: 60vw;
+.store-wrapper {
+  display: block;
+  padding: 10px;
+  min-height: 60vw;
 
-    .lnb-list{
-        @include flexbox(start);
-        padding: 4px;
-    }
-    .lnb-item{
-        @include text-style-16();
-        font-weight: 700;
-        padding: 4px;
-    }
-    .store-list{
-        @include flexbox(start, start);
-        flex-wrap: wrap;
+  .lnb-list {
+    @include flexbox(start);
+    padding: 4px;
+  }
+  .lnb-item {
+    @include text-style-16();
+    font-weight: 700;
+    padding: 4px;
+  }
+  .store-list {
+    @include flexbox(start, start);
+    flex-wrap: wrap;
 
-        .store-item{
-            @include column-flexbox();
-            padding: 1vw;
+    .store-item {
+      @include column-flexbox();
+      padding: 1vw;
 
-            .store-img{
-                img{
-                    display: block;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-            .store-title{
-                padding: 8px 0;
-            }
+      .store-img {
+        img {
+          display: block;
+          width: 100%;
+          object-fit: cover;
         }
+      }
+      .store-title {
+        padding: 8px 0;
+      }
     }
+  }
 }

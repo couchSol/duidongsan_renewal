@@ -1,62 +1,63 @@
-.menu-intro{
-    border-bottom: 1px solid rgb(190, 194, 189);
+.menu-intro {
+  border-bottom: 1px solid rgb(190, 194, 189);
+  @include responsive(lg) {
     @include flexbox(between, start);
+  }
 
-    &-img{
-        display: block;
-        height: 280px;
-        margin: 50px 0;
-        background : url('https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2267dc41-e335-48bb-a304-0eccc12be7ea%2Fmenu-cut.jpeg?table=block&id=c8ae9734-f91c-46cb-b75d-d82f77fc4385&spaceId=5faaf709-5286-406a-bd35-2f81525f2422&width=1830&userId=64132609-ca0a-4879-a67d-995b82c56f1e&cache=v2')
-         no-repeat center/cover;
+  &-img {
+    display: block;
+    height: 280px;
+    margin: 50px 0;
+    background: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2267dc41-e335-48bb-a304-0eccc12be7ea%2Fmenu-cut.jpeg?table=block&id=c8ae9734-f91c-46cb-b75d-d82f77fc4385&spaceId=5faaf709-5286-406a-bd35-2f81525f2422&width=1830&userId=64132609-ca0a-4879-a67d-995b82c56f1e&cache=v2")
+      no-repeat center/cover;
+  }
+
+  &-text {
+    display: block;
+    margin: 50px 0;
+
+    .text-title {
+      @include text-style-20();
+      font-weight: 700;
+      margin-bottom: 16px;
     }
-
-    &-text{
-        display: block;
-        margin: 50px 0;
-
-        .text-title{
-            @include text-style-20();
-            font-weight: 700;
-            margin-bottom: 16px;
-        }
-        .text-content{
-            @include text-style-16();
-        }
+    .text-content {
+      @include text-style-16();
     }
-
+  }
 }
 
-.menu-wrapper{
-    padding: 10px;
-    min-height: 60vw;
+.menu-wrapper {
+  padding: 10px;
+  min-height: 60vw;
 
-    .lnb-list{
-        @include flexbox(start);
-        padding: 4px;
-    }
-    .lnb-item{
-        @include text-style-16();
-        font-weight: 700;
-        padding: 4px;
-    }
-    .menu-list{
-        @include flexbox(start, start);
-        flex-wrap: wrap;
+  .lnb-list {
+    @include flexbox(start);
+    padding: 4px;
+  }
+  .lnb-item {
+    @include text-style-16();
+    font-weight: 700;
+    padding: 4px;
+  }
+  .menu-list {
+    @include flexbox(start, start);
+    flex-wrap: wrap;
 
-        .menu-item{
-            @include column-flexbox();
-            padding: 1vw;
+    .menu-item {
+      @include column-flexbox();
+      padding: 1vw;
 
-            .menu-img{
-                img{
-                    display: block;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-            .menu-title{
-                padding: 8px 0;
-            }
+      .menu-img {
+        img {
+          display: block;
+          width: 100%;
+          object-fit: cover;
         }
+      }
+      .menu-title {
+        padding: 8px 0;
+      }
     }
+  }
 }
