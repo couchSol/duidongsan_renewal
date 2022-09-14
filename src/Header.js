@@ -17,13 +17,13 @@ function Gnb() {
     <nav className="lg-only">
       <h2 className="visually-hidden">메뉴</h2>
       <ul className="gnb-nav-list">
-        <Link to="/space">
+        <Link to="/duidongsan_renewal/space">
           <li className="gnb-nav-item">공간</li>
         </Link>
-        <Link to="/menu">
+        <Link to="/duidongsan_renewal/menu">
           <li className="gnb-nav-item">메뉴</li>
         </Link>
-        <Link to="/store">
+        <Link to="/duidongsan_renewal/store">
           <li className="gnb-nav-item">상점</li>
         </Link>
       </ul>
