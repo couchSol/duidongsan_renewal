@@ -14,15 +14,12 @@ function App() {
         <Routes>
           <Route path="/duidongsan_renewal/" element={<MainPage />}></Route>
           <Route
-            path="/duidongsan_renewal//space"
+            path="/duidongsan_renewal/space"
             element={<SpacePage />}
           ></Route>
+          <Route path="/duidongsan_renewal/menu" element={<MenuPage />}></Route>
           <Route
-            path="/duidongsan_renewal//menu"
-            element={<MenuPage />}
-          ></Route>
-          <Route
-            path="/duidongsan_renewal//store"
+            path="/duidongsan_renewal/store"
             element={<StorePage />}
           ></Route>
         </Routes>
